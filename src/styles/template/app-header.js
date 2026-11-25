@@ -4,3 +4,10 @@ export function createAppHeader(titulo){
     </header>`
 //alert("header")
 }
+
+
+window.addEventListener("haschange",(event)=>{
+    console.log("URL anterior:", event.oldURL);
+    console.log("URL nueva:", event.newURL);
+    console.log("Hash actual:", location.hash)
+})
