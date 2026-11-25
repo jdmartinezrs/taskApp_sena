@@ -1,7 +1,7 @@
 export function initUsers(){
     return{
-        list: ()=> {},
-        create: ()=> {},
-        edit: ()=> {}
+        list: ()=> {return "Listamos las tareas"},
+        create: ()=> { return 25},
+        edit: ()=> {return "Hola"}
     }
 }

@@ -3,8 +3,8 @@ export function startRouter(){
 
 window.addEventListener("hashchange",(a)=>{
   let nuevo = window.location.hash.replace(/^#\/?/, " ");
-  //console.log(initTasks())
-console.log(routers)
+console.log(routers[nuevo]().list);
+console.log();
   
 })
 };

@@ -7,4 +7,4 @@ export const routers = {
   tasks: initTasks,
   sales: initSales
 }
-  
+

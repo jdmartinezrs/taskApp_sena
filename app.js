@@ -2,7 +2,6 @@ import {mountAppLayout} from "./src/styles/template/app-layout.js"
 import { navigationItems } from "./src/core/item.js";
 import{startRouter}from "./src/core/router/router.js"
 
-
 const rootElement = document.querySelector('#app-root');
 
 export function startApp(){
